@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .Pokemons-Card{
+        background-color: #f8f8f8;
+        height: 300px;
+        text-align: center;
+
+        img{
+            width: 60%;
+        }
+        p{
+            font-size: 20px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight: 900;
+            color: brown;
+        }
+    }
+  }
+ 
