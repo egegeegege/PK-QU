@@ -24,9 +24,13 @@ function App() {
         {
           pokemons.map((pokemon,key)=>{
             return(
-                 <div key={key} className='Pokemons-Card'>
-                <img src={pokemon.image.thumbnail} alt={pokemon.name} />
-                <p>{pokemon.name}</p>
+              <div key={key} className='Pokemons-Card'>
+                     <img src={pokemon.image.thumbnail} alt={pokemon.name} />
+                     <p>{pokemon.name}</p>
+                     <div className='ButtonContainer'>
+                     <button>{pokemon.type}</button>
+                     <button>{pokemon.type}</button>
+                     </div>
               </div>
                 
              
